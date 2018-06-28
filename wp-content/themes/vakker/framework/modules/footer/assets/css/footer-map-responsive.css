@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Footer responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Footer responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-3 {
+    width: 50%;
+    float: left;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-3:nth-child(2n+1) {
+    clear: both;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-3:nth-child(3), .eltd-page-footer .eltd-column-content.eltd-grid-col-3:nth-child(4) {
+    margin-top: 30px;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-4 {
+    width: 100%;
+    float: left;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-4:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:first-child {
+    padding-left: 40px;
+  }
+  .eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:last-child {
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:first-child, .eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:last-child {
+    text-align: center;
+    padding: 0 15px;
+  }
+  .eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-page-footer .eltd-column-content:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+/* ==========================================================================
+   Footer responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map-responsive.css.map */

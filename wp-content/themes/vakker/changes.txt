@@ -1,0 +1,5 @@
+1.1
+- Added portfolio list image size option to portfolio single
+- Updated Eltd Core plugin to version 1.1
+- Updated Revolution Slider to version 5.4.7.1
+- Updated outdated WooCommerce template files

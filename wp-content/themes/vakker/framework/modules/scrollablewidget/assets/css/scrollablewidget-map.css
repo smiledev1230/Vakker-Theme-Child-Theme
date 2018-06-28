@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Socialsidebar styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+.eltd-scrollable-widget-holder {
+  position: fixed;
+  right: -26px;
+  bottom: 11%;
+  z-index: 199;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.eltd-scrollable-widget-holder.eltd-scrollable-widget-light .widget span {
+  color: #fff !important;
+}
+
+.eltd-scrollable-widget-holder .widget {
+  margin-bottom: 15px;
+}
+
+.eltd-scrollable-widget-holder .widget .eltd-icon-shortcode {
+  margin: 3px 9px 0 0;
+}
+
+.eltd-scrollable-widget-holder .widget .eltd-icon-shortcode.eltd-hover .eltd-icon-element {
+  -webkit-transform: translateX(4px);
+  -moz-transform: translateX(4px);
+  transform: translateX(4px);
+}
+
+.eltd-scrollable-widget-holder .widget.eltd-scroll-text-widget .eltd-scroll-text-holder {
+  bottom: -28px;
+  position: relative;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.eltd-scrollable-widget-holder .widget.eltd-scroll-text-widget span.eltd-widget-text,
+.eltd-scrollable-widget-holder .widget.eltd-scroll-text-widget #eltd-back-to-top span {
+  font-size: 11px;
+  text-transform: lowercase;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #393939;
+  letter-spacing: .15em;
+}
+
+.eltd-scrollable-widget-holder .widget.eltd-scroll-text-widget #eltd-back-to-top {
+  width: auto;
+  height: auto;
+  bottom: -17px;
+  border: 1px solid #ffd94a;
+  padding: 0 15px;
+  background-color: #fff;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.eltd-scrollable-widget-holder .widget.eltd-scroll-text-widget #eltd-back-to-top span {
+  width: auto;
+  height: auto;
+  border: none;
+  line-height: 35px;
+  background-color: transparent;
+}
+
+.eltd-scrollable-widget-holder .widget.eltd-scroll-text-widget #eltd-back-to-top span:after {
+  display: none;
+}
+
+.eltd-scrollable-widget-holder .widget .eltd-icon-element {
+  position: relative;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .eltd-scrollable-widget-holder .widget .eltd-icon-element {
+    top: 1px;
+  }
+}
+
+/* ==========================================================================
+   Socialsidebar styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=scrollablewidget-map.css.map */

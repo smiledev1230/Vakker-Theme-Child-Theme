@@ -1,0 +1,428 @@
+/* ==========================================================================
+   Search styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Search opener - begin
+========================================================================== */
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-search-opener,
+.eltd-light-header .eltd-top-bar .eltd-search-opener {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-search-opener:hover,
+.eltd-light-header .eltd-top-bar .eltd-search-opener:hover {
+  color: #ffd94a !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-search-opener,
+.eltd-dark-header .eltd-top-bar .eltd-search-opener {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-search-opener:hover,
+.eltd-dark-header .eltd-top-bar .eltd-search-opener:hover {
+  color: #ffd94a !important;
+}
+
+.eltd-search-widget-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  width: 232px;
+  margin: 0 10px;
+  text-align: left;
+  /* Right Direction */
+  /* Expanding Layout */
+}
+
+.eltd-search-widget-holder form {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  line-height: 32px;
+}
+
+.eltd-search-widget-holder .eltd-search-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  line-height: inherit;
+  color: #000;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.eltd-search-widget-holder .eltd-search-opener > span {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltd-light-header .eltd-search-widget-holder .eltd-search-opener {
+  color: #fff;
+}
+
+.eltd-search-widget-holder .eltd-search-opener:hover {
+  color: #ffd94a;
+}
+
+.eltd-page-header .eltd-search-widget-holder .eltd-search-opener:hover {
+  color: #ffd94a;
+}
+
+.eltd-search-widget-holder .eltd-search-opener > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: inherit;
+}
+
+.eltd-search-widget-holder .eltd-search-opener > *:before {
+  position: relative;
+  top: -2px;
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-search-widget-holder .eltd-search-opener .eltd-search-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltd-search-widget-holder .eltd-search-opener-field {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  width: 200px;
+}
+
+.eltd-search-widget-holder .eltd-search-field {
+  position: relative;
+  top: -5px;
+  height: 30px;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #393939;
+  font-style: italic;
+  border: 0;
+  background-color: #fff;
+  outline: 0;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -webkit-transition: border-color 0.15s ease-in-out;
+  -moz-transition: border-color 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.eltd-search-widget-holder .eltd-search-field:focus {
+  border-color: #ffd94a;
+}
+
+.eltd-search-widget-holder .eltd-search-field::-webkit-input-placeholder {
+  color: #cfcece;
+}
+
+.eltd-search-widget-holder .eltd-search-field:-moz-placeholder {
+  color: #cfcece;
+  opacity: 1;
+}
+
+.eltd-search-widget-holder .eltd-search-field::-moz-placeholder {
+  color: #cfcece;
+  opacity: 1;
+}
+
+.eltd-search-widget-holder .eltd-search-field:-ms-input-placeholder {
+  color: #cfcece;
+}
+
+.eltd-page-header .eltd-search-widget-holder .eltd-search-field {
+  color: #000;
+}
+
+.eltd-page-header .eltd-search-widget-holder .eltd-search-field::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.eltd-page-header .eltd-search-widget-holder .eltd-search-field:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.eltd-page-header .eltd-search-widget-holder .eltd-search-field::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.eltd-page-header .eltd-search-widget-holder .eltd-search-field:-ms-input-placeholder {
+  color: inherit;
+}
+
+.eltd-search-widget-holder.eltd-search-right {
+  text-align: right;
+}
+
+.eltd-search-widget-holder.eltd-search-right .eltd-search-opener-field {
+  left: auto;
+  right: 29px;
+}
+
+.eltd-search-widget-holder.eltd-search-expanding {
+  width: auto;
+}
+
+.eltd-search-widget-holder.eltd-search-expanding .eltd-search-opener-field {
+  width: 0;
+  opacity: 0;
+  z-index: -1;
+  right: 56px;
+  -webkit-transition: width 0.24s ease-in-out;
+  -moz-transition: width 0.24s ease-in-out;
+  transition: width 0.24s ease-in-out;
+}
+
+.eltd-search-widget-holder.eltd-search-expanding .eltd-search-opener-field .eltd-search-submit {
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltd-search-widget-holder.eltd-search-expanding.eltd-is-active .eltd-search-opener > span {
+  opacity: 0;
+}
+
+.eltd-search-widget-holder.eltd-search-expanding.eltd-is-active .eltd-search-opener .eltd-search-close {
+  opacity: 1;
+}
+
+.eltd-search-widget-holder.eltd-search-expanding.eltd-is-active .eltd-search-opener-field {
+  width: 722px;
+  opacity: 1;
+  z-index: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-search-widget-holder.eltd-search-expanding.eltd-is-active .eltd-search-opener-field {
+    width: 150px;
+  }
+}
+
+/* ==========================================================================
+# Search opener - end
+========================================================================== */
+/* ==========================================================================
+# Search template style - begin
+========================================================================== */
+.eltd-search-page-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 80px;
+}
+
+.eltd-search-page-holder .eltd-search-page-form {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 30px;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-search-title {
+  margin: 0 0 20px;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-search-label {
+  display: block;
+  font-size: 13px;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 10px;
+  clear: both;
+  border-bottom: 1px solid #ddd;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-column-left {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-column-right {
+  display: table-cell;
+  width: 1%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-field {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px 0 3px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-field::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-field:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-field::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-field:-ms-input-placeholder {
+  color: inherit;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-submit {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  font-size: 18px;
+  color: #777777;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.eltd-search-page-holder .eltd-search-page-form .eltd-form-holder .eltd-search-submit:hover {
+  color: #000;
+}
+
+.eltd-search-page-holder article {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 30px 0;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.eltd-search-page-holder article.sticky .eltd-post-title a {
+  color: #ffd94a;
+}
+
+.eltd-search-page-holder article.page .eltd-post-title-area .eltd-post-info > div.eltd-post-info-category {
+  display: none;
+}
+
+.eltd-search-page-holder article .eltd-post-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-search-page-holder article .eltd-post-image {
+  display: block;
+  float: left;
+  width: 130px;
+}
+
+.eltd-search-page-holder article .eltd-post-image a, .eltd-search-page-holder article .eltd-post-image img {
+  display: block;
+}
+
+.eltd-search-page-holder article .eltd-post-title-area {
+  min-height: 130px;
+  padding: 0 0 0 150px;
+}
+
+.eltd-search-page-holder article .eltd-post-title-area.eltd-no-thumbnail {
+  padding: 0;
+  min-height: inherit;
+}
+
+.eltd-search-page-holder article .eltd-post-title-area .eltd-post-title-area-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.eltd-search-page-holder article .eltd-post-title-area .eltd-post-title-area-inner .eltd-post-title {
+  margin: 0;
+}
+
+.eltd-search-page-holder article .eltd-post-title-area .eltd-post-title-area-inner .eltd-post-excerpt {
+  margin: 7px 0 0;
+}
+
+.eltd-search-page-holder .eltd-blog-pagination {
+  margin: 50px 0 0;
+}
+
+/* ==========================================================================
+# Search template style - end
+========================================================================== */
+/* ==========================================================================
+   Search styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=search-map.css.map */

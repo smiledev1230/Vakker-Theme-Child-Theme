@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Footer styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   #Content bottom styles - begin
+   ========================================================================== */
+.eltd-content-bottom .eltd-content-bottom-inner {
+  box-sizing: border-box;
+}
+
+.eltd-content-bottom .eltd-content-bottom-inner.eltd-grid {
+  padding: 20px 0;
+}
+
+.eltd-content-bottom .eltd-content-bottom-inner.eltd-full-width {
+  padding: 20px 40px;
+}
+
+/* ==========================================================================
+   #Content bottom styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+.eltd-page-footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.eltd-page-footer .eltd-footer-top-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 50px 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner .eltd-footer-top-alignment-center > div {
+  text-align: center !important;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner .eltd-footer-top-alignment-left > div {
+  text-align: left !important;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner .eltd-footer-top-alignment-right > div {
+  text-align: right !important;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div {
+  text-align: center;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:first-child {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner > div > div:last-child {
+  text-align: right;
+  padding-right: 100px;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner.eltd-grid {
+  padding: 70px 0;
+}
+
+.eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner.eltd-full-width {
+  padding: 70px 40px;
+}
+
+.eltd-page-footer .eltd-footer-bottom-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.eltd-page-footer .eltd-footer-bottom-holder .eltd-footer-bottom-inner {
+  box-sizing: border-box;
+}
+
+.eltd-page-footer .eltd-footer-bottom-holder .eltd-footer-bottom-inner.eltd-grid {
+  padding: 19px 0;
+}
+
+.eltd-page-footer .eltd-footer-bottom-holder .eltd-footer-bottom-inner.eltd-full-width {
+  padding: 19px 40px;
+}
+
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map.css.map */

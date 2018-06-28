@@ -1,0 +1,2817 @@
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+.eltd-page-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 110;
+  box-sizing: border-box;
+  /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+  /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+.eltd-page-header a img {
+  display: block;
+}
+
+.eltd-page-header p {
+  margin: 0;
+}
+
+.eltd-page-header .eltd-vertical-align-containers {
+  padding: 0 50px;
+}
+
+.eltd-paspartu-enabled .eltd-page-header .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-page-header .eltd-grid {
+  height: 100%;
+}
+
+.eltd-page-header .eltd-grid .eltd-vertical-align-containers {
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.eltd-page-header .eltd-logo-area {
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.eltd-page-header .eltd-logo-area .eltd-logo-wrapper a {
+  max-height: 110px;
+}
+
+.eltd-page-header .eltd-menu-area {
+  position: relative;
+  height: 110px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.eltd-boxed .eltd-page-header .eltd-menu-area {
+  padding: 0;
+}
+
+.eltd-page-header .eltd-menu-area .eltd-logo-wrapper a {
+  max-height: 110px;
+}
+
+.eltd-page-header .eltd-menu-area .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  color: #393939;
+}
+
+.eltd-logo-area-border-disable .eltd-page-header .eltd-logo-area {
+  border: none;
+}
+
+.eltd-logo-area-in-grid-border-disable .eltd-page-header .eltd-logo-area .eltd-grid .eltd-vertical-align-containers {
+  border: none;
+}
+
+.eltd-header-logo-area-in-grid-padding .eltd-page-header .eltd-logo-area .eltd-vertical-align-containers {
+  padding: 0 25px;
+}
+
+.eltd-menu-area-shadow-disable .eltd-page-header .eltd-menu-area {
+  box-shadow: none;
+}
+
+.eltd-menu-area-shadow-disable .eltd-page-header .eltd-menu-area .eltd-grid .eltd-vertical-align-containers {
+  box-shadow: none;
+}
+
+.eltd-menu-area-border-disable .eltd-page-header .eltd-menu-area {
+  border: none;
+}
+
+.eltd-menu-area-in-grid-border-disable .eltd-page-header .eltd-menu-area .eltd-grid .eltd-vertical-align-containers {
+  border: none;
+}
+
+.eltd-header-logo-area-in-grid-padding .eltd-page-header .eltd-menu-area .eltd-vertical-align-containers {
+  padding: 0 25px;
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 1;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 0;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget p,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget span,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget i,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget p,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget span,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget i,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 1;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 0;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget p,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget span,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget i,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget p,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget span,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget i,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */
+/* ==========================================================================
+   Header logo styles - begin
+   ========================================================================== */
+.eltd-logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-logo-wrapper a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.eltd-logo-wrapper a img {
+  height: 100%;
+  width: auto;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.eltd-logo-wrapper a img.eltd-normal-logo {
+  opacity: 1;
+}
+
+.eltd-logo-wrapper a img.eltd-dark-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.eltd-logo-wrapper a img.eltd-light-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+
+/* ==========================================================================
+   Header logo styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Header main menu style - begin
+   ========================================================================== */
+.eltd-main-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  width: auto;
+}
+
+.eltd-main-menu ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.eltd-main-menu ul li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-main-menu ul li a {
+  font-size: 13px;
+  line-height: 24px;
+  color: #939598;
+}
+
+.eltd-main-menu ul li a:hover {
+  color: #ffd94a;
+}
+
+.eltd-main-menu ul li a i:before {
+  margin: 0 7px 0 0;
+}
+
+.eltd-main-menu ul li a .menu_icon_wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-main-menu ul li a .eltd-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 5px;
+  color: currentColor;
+  font-size: 10px;
+  margin: 0;
+}
+
+.eltd-main-menu ul li a .eltd-menu-featured-icon:before {
+  margin: 0;
+}
+
+.eltd-main-menu > ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.eltd-main-menu > ul > li {
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 17px;
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 23px;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer {
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text:before, .eltd-main-menu > ul > li > a > span.item_outer .item_text:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  left: auto;
+  width: 0;
+  height: 2px;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text:before {
+  background-color: #ffd94a;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text:after {
+  background-color: #ffd94a;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.eltd-main-menu > ul > li > a:hover {
+  color: #000;
+}
+
+.eltd-main-menu > ul > li > a:hover > span.item_outer .item_text:before, .eltd-main-menu > ul > li > a:hover > span.item_outer .item_text:after {
+  width: 100%;
+  left: 0;
+}
+
+.eltd-main-menu > ul > li.eltd-active-item > a > span.item_outer .item_text:before, .eltd-main-menu > ul > li.eltd-active-item > a > span.item_outer .item_text:after {
+  width: 100%;
+  left: 0;
+}
+
+.eltd-main-menu > ul > li.has_sub > a .eltd-menu-arrow {
+  display: none;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a {
+  color: #fff;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li.eltd-active-item > a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a:hover {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li.eltd-active-item > a {
+  color: #333;
+}
+
+/* Narrow drop down styles
+   ========================================================================== */
+.eltd-drop-down .second {
+  position: absolute;
+  display: block;
+  left: -15px;
+  top: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+}
+
+.eltd-drop-down .second.eltd-drop-down-start {
+  visibility: visible;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.eltd-drop-down .second.right {
+  right: -15px;
+  left: auto;
+}
+
+.eltd-drop-down .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  z-index: 997;
+}
+
+.eltd-drop-down .second .inner ul li {
+  display: block;
+  float: none;
+  height: auto;
+}
+
+.eltd-drop-down .second .inner ul li .widget {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.eltd-drop-down .second .inner ul li a {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 5px 30px;
+  color: #393939;
+  font-size: 13px;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  letter-spacing: .08em;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.eltd-drop-down .second .inner ul li a .item_outer {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  -webkit-transition: padding 0.2s ease-in-out;
+  -moz-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+}
+
+.eltd-drop-down .second .inner ul li a:hover .item_outer {
+  padding: 0 10px;
+}
+
+.eltd-drop-down .second .inner ul li.current-menu-ancestor > a .item_outer,
+.eltd-drop-down .second .inner ul li.current-menu-item > a .item_outer {
+  padding: 0 10px;
+}
+
+.eltd-drop-down .second .inner ul li.sub > a .item_outer:after {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  right: 0;
+  content: '\f3d1';
+  font-family: 'Ionicons';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eltd-drop-down .second .inner ul.right li a .item_outer {
+  padding: 0 0 0 20px;
+}
+
+.eltd-drop-down .second .inner ul.right li a:hover .item_outer {
+  padding: 0 10px;
+}
+
+.eltd-drop-down .second .inner ul.right li.current-menu-ancestor > a .item_outer,
+.eltd-drop-down .second .inner ul.right li.current-menu-item > a .item_outer {
+  padding: 0 10px;
+}
+
+.eltd-drop-down .second .inner ul.right li.sub > a .item_outer:after {
+  right: auto;
+  left: 0;
+  content: "\f3cf";
+}
+
+.eltd-drop-down .second .inner ul.right li a {
+  text-align: right;
+}
+
+.eltd-drop-down .second .inner ul.right li ul {
+  left: -100%;
+}
+
+.eltd-drop-down li.left_position .second {
+  left: 0;
+}
+
+.eltd-drop-down li.right_position .second {
+  left: auto;
+  right: 0;
+}
+
+.eltd-drop-down > ul > li:hover > .second {
+  z-index: 20;
+}
+
+.eltd-drop-down .narrow .second .inner ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 21px 0;
+}
+
+.eltd-drop-down .narrow .second .inner ul li {
+  width: 230px;
+}
+
+.eltd-drop-down .narrow .second .inner ul li ul {
+  position: absolute;
+  left: 100%;
+  top: -21px;
+  height: auto;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+
+.eltd-drop-down .narrow .second .inner ul li:hover ul {
+  z-index: 20;
+  opacity: 1;
+}
+
+.eltd-drop-down .narrow .second .inner ul.right li ul {
+  left: auto;
+  right: 100%;
+}
+
+/* Wide drop down styles
+   ========================================================================== */
+.eltd-drop-down .wide .second .inner {
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.eltd-drop-down .wide .second .inner ul li a {
+  padding: 5px 0;
+}
+
+.eltd-drop-down .wide .second .inner ul li ul {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  visibility: visible;
+}
+
+.eltd-drop-down .wide .second .inner ul li ul li:last-child a {
+  padding-bottom: 0;
+}
+
+.eltd-drop-down .wide .second .inner > ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1100px;
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1400px) {
+  .eltd-grid-1300 .eltd-drop-down .wide .second .inner > ul {
+    width: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .eltd-grid-1200 .eltd-drop-down .wide .second .inner > ul {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .eltd-grid-1000 .eltd-drop-down .wide .second .inner > ul {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .eltd-grid-800 .eltd-drop-down .wide .second .inner > ul {
+    width: 800px;
+  }
+}
+
+.eltd-drop-down .wide .second .inner > ul > li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0 15px 0 85px;
+  box-sizing: border-box;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li:nth-child(4n+1) {
+  clear: both;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a {
+  padding: 0 0 13px;
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  font-style: normal;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a.no_link {
+  cursor: default;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a .item_outer {
+  padding: 0;
+  overflow: inherit;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a .item_outer:before, .eltd-drop-down .wide .second .inner > ul > li > a .item_outer:after {
+  display: none;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a,
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-item > a {
+  color: #000;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul, .eltd-drop-down .wide.right_position .second .inner > ul {
+  width: auto;
+  white-space: nowrap;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul > li, .eltd-drop-down .wide.right_position .second .inner > ul > li {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul > li:nth-child(4n+1), .eltd-drop-down .wide.right_position .second .inner > ul > li:nth-child(4n+1) {
+  border-left: none;
+}
+
+.eltd-drop-down .wide.left_position .second ul li, .eltd-drop-down .wide.right_position .second ul li {
+  width: 200px;
+}
+
+/* ==========================================================================
+   Header main menu style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header style - begin
+   ========================================================================== */
+.eltd-page-header .eltd-fixed-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.admin-bar .eltd-page-header .eltd-fixed-wrapper.fixed {
+  margin-top: 32px;
+}
+
+.eltd-page-header .eltd-fixed-wrapper.fixed .eltd-menu-area {
+  background-color: #fff;
+}
+
+.eltd-fixed-on-scroll .eltd-page-header .eltd-fixed-wrapper .eltd-menu-area {
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+}
+
+/* ==========================================================================
+   Fixed header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Centered style - begin
+   ========================================================================== */
+.eltd-header-centered .eltd-page-header .eltd-logo-area {
+  height: 180px;
+  overflow: visible;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-logo-area .eltd-logo-wrapper {
+  padding: 70px 0 0;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-logo-area .eltd-logo-wrapper a {
+  max-height: 180px;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-logo-area .eltd-logo-wrapper img {
+  margin: 0 auto;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-menu-area {
+  height: 60px;
+  z-index: 1;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-menu-area .eltd-vertical-align-containers .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-left-inner {
+  height: auto;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Centered style - end
+   ========================================================================== */
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-expanding-menu-opener .eltd-fm-text,
+.eltd-dark-header .eltd-top-bar .eltd-expanding-menu-opener {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fm-lines .eltd-fm-line {
+  background-color: #333 !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-expanding-menu-opener .eltd-fm-text,
+.eltd-light-header .eltd-top-bar .eltd-expanding-menu-opener {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fm-lines .eltd-fm-line {
+  background-color: #fff !important;
+}
+
+.eltd-header-expanding .eltd-page-header .eltd-vertical-align-containers .eltd-position-right-inner {
+  height: 100%;
+}
+
+.eltd-header-expanding .eltd-page-header .eltd-vertical-align-containers .eltd-position-right-inner .eltd-expanding-menu.eltd-main-menu {
+  width: auto;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li {
+  position: relative;
+  opacity: 0;
+  visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: opacity .2s ease-out, visibility .2s ease-out;
+  transition: opacity .2s ease-out, visibility .2s ease-out;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+1) {
+  -webkit-transition-delay: .3s;
+  transition-delay: .3s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+2) {
+  -webkit-transition-delay: .35s;
+  transition-delay: .35s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+3) {
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+4) {
+  -webkit-transition-delay: .45s;
+  transition-delay: .45s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+5) {
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+6) {
+  -webkit-transition-delay: .55s;
+  transition-delay: .55s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+7) {
+  -webkit-transition-delay: .6s;
+  transition-delay: .6s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+8) {
+  -webkit-transition-delay: .65s;
+  transition-delay: .65s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+9) {
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
+}
+
+.eltd-header-expanding .eltd-main-menu > ul > li:nth-child(n+10) {
+  -webkit-transition-delay: .75s;
+  transition-delay: .75s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li {
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-out, visibility .3s ease-out;
+  transition: opacity .3s ease-out, visibility .3s ease-out;
+  visibility: visible;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+1) {
+  -webkit-transition-delay: .3s;
+  transition-delay: .3s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+2) {
+  -webkit-transition-delay: .35s;
+  transition-delay: .35s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+3) {
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+4) {
+  -webkit-transition-delay: .45s;
+  transition-delay: .45s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+5) {
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+6) {
+  -webkit-transition-delay: .55s;
+  transition-delay: .55s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+7) {
+  -webkit-transition-delay: .6s;
+  transition-delay: .6s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+8) {
+  -webkit-transition-delay: .65s;
+  transition-delay: .65s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+9) {
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
+}
+
+.eltd-header-expanding.eltd-expanding-menu-opened .eltd-main-menu > ul > li:nth-last-child(n+10) {
+  -webkit-transition-delay: .75s;
+  transition-delay: .75s;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  margin: 0 0 0 7px;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener .eltd-fm-lines {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 24px;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener .eltd-fm-lines .eltd-fm-line {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  transform: rotate(25deg);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-1 {
+  left: 0;
+  outline: transparent solid 1px;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  left: calc(50% - 1px);
+  outline: transparent solid 1px;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: calc(100% - 2px);
+  outline: transparent solid 1px;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener .eltd-fm-text {
+  position: absolute;
+  top: 6px;
+  right: 32px;
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  -webkit-transition: opacity 0.3s ease-out 0.8s;
+  -moz-transition: opacity 0.3s ease-out 0.8s;
+  transition: opacity 0.3s ease-out 0.8s;
+  opacity: 1;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener:hover {
+  color: #000 !important;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-1, .eltd-header-expanding .eltd-expanding-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: calc(50% - 2px);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener.eltd-fm-opened {
+  color: #000 !important;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener.eltd-fm-opened .eltd-fm-lines .eltd-fm-line.eltd-line-1 {
+  display: none;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener.eltd-fm-opened .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  left: 50%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener.eltd-fm-opened .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opener.eltd-fm-opened .eltd-fm-text {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease;
+  -moz-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opened .eltd-page-header,
+.eltd-header-expanding .eltd-expanding-menu-opened .eltd-top-bar {
+  visibility: hidden;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opened .eltd-expanding-menu-opener,
+.eltd-header-expanding .eltd-expanding-menu-opened .eltd-logo-wrapper {
+  visibility: visible;
+}
+
+.eltd-header-expanding .eltd-expanding-menu-opened .eltd-expanding-menu-holder-outer {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/*==========================================================================
+# Fullscreen menu style - begin
+========================================================================== */
+/* Fullscreen general style - begin
+========================================================================== */
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener:hover, .eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener.eltd-fm-opened {
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener {
+  color: #fff;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener:hover, .eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener.eltd-fm-opened {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-fullscreen-menu-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-lines {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 24px;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-lines .eltd-fm-line {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  transform: rotate(25deg);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-1 {
+  left: 0;
+  outline: transparent solid 1px;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  left: calc(50% - 1px);
+  outline: transparent solid 1px;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: calc(100% - 2px);
+  outline: transparent solid 1px;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-text {
+  position: absolute;
+  top: 3px;
+  right: 32px;
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  -webkit-transition: opacity 0.15s ease;
+  -moz-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
+  opacity: 1;
+}
+
+.eltd-fullscreen-menu-opener:hover {
+  color: #000 !important;
+}
+
+.eltd-fullscreen-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-1, .eltd-fullscreen-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: calc(50% - 2px);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.eltd-fullscreen-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened {
+  color: #000 !important;
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-lines .eltd-fm-line.eltd-line-1 {
+  display: none;
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  left: 50%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-text {
+  opacity: 0;
+}
+
+.eltd-fullscreen-menu-opened .eltd-page-header,
+.eltd-fullscreen-menu-opened .eltd-top-bar {
+  visibility: hidden;
+}
+
+.eltd-fullscreen-menu-opened .eltd-fullscreen-menu-opener,
+.eltd-fullscreen-menu-opened .eltd-logo-wrapper {
+  visibility: visible;
+}
+
+.eltd-fullscreen-menu-opened .eltd-fullscreen-menu-holder-outer {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.eltd-fullscreen-menu-holder-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden !important;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 105;
+  /* this has to be between header z-index and content z-index */
+}
+
+.eltd-fullscreen-menu-holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: table;
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.eltd-fullscreen-menu-holder-inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 100px 0;
+}
+
+.touch .eltd-fullscreen-menu-holder-outer {
+  display: none;
+}
+
+.touch .eltd-fullscreen-menu-opened .eltd-fullscreen-menu-holder-outer {
+  display: block;
+}
+
+nav.eltd-fullscreen-menu {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+
+nav.eltd-fullscreen-menu ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav.eltd-fullscreen-menu ul li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav.eltd-fullscreen-menu ul li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 11px 0;
+  font-size: 25px;
+  line-height: 1.3em;
+}
+
+nav.eltd-fullscreen-menu ul li a span {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav.eltd-fullscreen-menu ul li a .eltd-fullscreen-menu-arrow {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+  font-size: 0.65em;
+  line-height: inherit;
+}
+
+nav.eltd-fullscreen-menu ul li ul {
+  padding: 7px 0;
+}
+
+nav.eltd-fullscreen-menu ul li ul.sub_menu {
+  display: none;
+}
+
+nav.eltd-fullscreen-menu ul li ul li.current-menu-ancestor > a,
+nav.eltd-fullscreen-menu ul li ul li.current-menu-item > a {
+  color: #ffd94a;
+}
+
+nav.eltd-fullscreen-menu ul li ul li ul li a {
+  font-size: 20px;
+}
+
+nav.eltd-fullscreen-menu > ul {
+  display: block;
+}
+
+nav.eltd-fullscreen-menu > ul > li > a {
+  font-size: 40px;
+}
+
+nav.eltd-fullscreen-menu > ul > li.eltd-active-item > a {
+  color: #ffd94a;
+}
+
+.eltd-fullscreen-below-menu-widget-holder {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.eltd-fullscreen-above-menu-widget-holder {
+  text-align: center;
+}
+
+/* Fullscreen general style - end
+========================================================================== */
+/* Fullscreen fade animations general - begin
+========================================================================== */
+@-webkit-keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-moz-keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-moz-keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer,
+.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer,
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  overflow: hidden !important;
+  z-index: 105;
+  opacity: 0;
+}
+
+.eltd-fullscreen-fade-out .eltd-fullscreen-menu-holder-outer {
+  -webkit-animation: fade_out .25s linear both;
+  -moz-animation: fade_out .25s linear both;
+  animation: fade_out .25s linear both;
+}
+
+.eltd-fullscreen-menu-opened.eltd-fullscreen-fade-in .eltd-fullscreen-menu-holder-outer {
+  -webkit-animation: fade_in .25s linear both;
+  -moz-animation: fade_in .25s linear both;
+  animation: fade_in .25s linear both;
+}
+
+/* Fullscreen fade animations general - end
+========================================================================== */
+/* Fullscreen animation push text right - begin
+========================================================================== */
+@-webkit-keyframes push_text_right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes push_text_right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes push_text_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer nav > ul > li > a,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder > div,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder > div {
+  -webkit-animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+  -moz-animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+  animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+}
+
+.eltd-fade-push-text-right.eltd-push-nav-right .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fade-push-text-right.eltd-push-nav-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fade-push-text-right.eltd-push-nav-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  -webkit-transform: translateX(50px);
+  -moz-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+/* Fullscreen animation push text right - end
+========================================================================== */
+/* Fullscreen animation push text top - begin
+========================================================================== */
+@-webkit-keyframes push_text_top {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes push_text_top {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@keyframes push_text_top {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer nav > ul > li > a,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder > div,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder > div {
+  -webkit-animation: push_text_top 0.4s ease-out both 0.5s;
+  -moz-animation: push_text_top 0.4s ease-out both 0.5s;
+  animation: push_text_top 0.4s ease-out both 0.5s;
+}
+
+.eltd-fade-push-text-top.eltd-push-text-top .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fade-push-text-top.eltd-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fade-push-text-top.eltd-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+/* Fullscreen animation push text top - end
+========================================================================== */
+/* Fullscreen animation fade text scaledown - begin
+========================================================================== */
+.eltd-fullscreen-menu-opened.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fullscreen-menu-opened.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fullscreen-menu-opened.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.25s linear 0.1s;
+  -moz-transition: all 0.25s linear 0.1s;
+  transition: all 0.25s linear 0.1s;
+}
+
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.25s linear 0.1s;
+  -moz-transition: all 0.25s linear 0.1s;
+  transition: all 0.25s linear 0.1s;
+}
+
+/* Fullscreen animation fade text scaledown - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen menu style - end
+==========================================================================*/
+/* ==========================================================================
+   Header Minimal style - begin
+   ========================================================================== */
+.eltd-header-minimal .eltd-page-header .eltd-menu-area .eltd-position-right-inner {
+  height: auto;
+}
+
+.eltd-header-minimal .eltd-page-header .eltd-position-left:before,
+.eltd-header-minimal .eltd-page-header .eltd-position-right:before {
+  content: "";
+}
+
+.eltd-header-minimal .eltd-page-header .eltd-sticky-header .eltd-position-left-inner {
+  height: auto;
+}
+
+.eltd-header-minimal .eltd-page-header .eltd-sticky-header .eltd-vertical-align-containers .eltd-position-right .eltd-position-right-inner {
+  height: auto;
+}
+
+/* ==========================================================================
+   Header Minimal style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - begin
+   ========================================================================== */
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-main-menu {
+  width: auto;
+  padding: 0 0 0 20px;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-vertical-align-containers .eltd-position-left-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-center .eltd-vertical-align-containers .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-main-menu {
+  width: auto;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-vertical-align-containers .eltd-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical - Sliding style - begin
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-logo-wrapper {
+  z-index: 100;
+  display: block;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 10px;
+}
+
+.eltd-header-vertical-sliding .eltd-logo-wrapper a {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-logo-wrapper img {
+  height: auto;
+  max-height: 100%;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding navigation style - begin
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  margin: 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener .eltd-fm-lines {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 24px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  transform: rotate(25deg);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-1 {
+  left: 0;
+  outline: transparent solid 1px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  left: calc(50% - 1px);
+  outline: transparent solid 1px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: calc(100% - 2px);
+  outline: transparent solid 1px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener .eltd-fm-text {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  -webkit-transition: opacity 0.15s;
+  -moz-transition: opacity 0.15s;
+  transition: opacity 0.15s;
+  opacity: 1;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener:hover {
+  color: #000 !important;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-1, .eltd-header-vertical-sliding .eltd-vertical-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: calc(50% - 2px);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener:hover .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer {
+  width: 315px;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer.active {
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder {
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder .eltd-vertical-menu-holder-nav-inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 100px 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu {
+  padding: 0 5% 0 20%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu ul li a {
+  color: #393939;
+  font-size: 13px;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  letter-spacing: .08em;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu ul li a:hover {
+  color: #ffd94a !important;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a {
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 24px;
+  padding: 13px 0;
+  font-style: normal;
+  margin: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a span {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a span:before, .eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a span:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  left: auto;
+  width: 0;
+  height: 2px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a span:before {
+  background-color: #ffd94a;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a span:after {
+  background-color: #ffd94a;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a:hover {
+  color: #000 !important;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a:hover span:before, .eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu > ul > li > a:hover span:after {
+  width: 100%;
+  left: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder .eltd-fullscreen-menu-arrow {
+  display: none;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-alignment-top .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder .eltd-vertical-menu-holder-nav-inner {
+  vertical-align: top;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding navigation style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical - Sliding widget style - begin
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder {
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget > div,
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget > a,
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget > span {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-social-icon-widget-holder {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-social-icon-widget-holder:hover {
+  color: #000 !important;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-social-icon-widget-holder:hover {
+  color: #fff !important;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding widget style - end
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-content,
+.eltd-header-vertical-sliding footer {
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area {
+  position: fixed;
+  width: 50px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  height: 100%;
+  z-index: 101;
+  -webkit-backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-area-inner {
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-area-background {
+  position: fixed;
+  width: 50px;
+  height: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: cover;
+  border-right: 1px solid #ddd;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  -moz-transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px 0 0;
+  text-align: center;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.eltd-with-scroll {
+  overflow: hidden;
+}
+
+.eltd-header-vertical-sliding.admin-bar .eltd-vertical-menu-area {
+  top: 33px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-vertical-menu-opener {
+  color: #000 !important;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-1 {
+  display: none;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-2 {
+  left: 50%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-vertical-menu-opener .eltd-fm-lines .eltd-fm-line.eltd-line-3 {
+  left: 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical style - begin
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical navigation style - begin
+   ========================================================================== */
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu-outer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 50px 0 100px;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu > ul {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu > ul {
+    -webkit-transform: translateX(-50%) translateY(-42%);
+    -moz-transform: translateX(-50%) translateY(-42%);
+    transform: translateX(-50%) translateY(-42%);
+  }
+}
+
+.eltd-header-vertical .eltd-vertical-menu-outer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+  color: #393939;
+  font-size: 13px;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  letter-spacing: .08em;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a:hover {
+  color: #ffd94a;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a:hover .eltd-menu-arrow {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .item_outer {
+  position: relative;
+  display: block;
+  padding: 0 15px 0 0;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-arrow {
+  position: absolute;
+  display: none;
+  top: 1px;
+  right: 0;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -moz-transition: -moz-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 3px;
+  color: #000;
+  font-size: 12px;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .menu_icon:not(.blank):not(.null) {
+  padding: 0 5px 0 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li.eltd-active-item > a .item_text:before, .eltd-header-vertical .eltd-vertical-menu ul li.eltd-active-item > a .item_text:after,
+.eltd-header-vertical .eltd-vertical-menu ul li.current_page_item > a .item_text:before,
+.eltd-header-vertical .eltd-vertical-menu ul li.current_page_item > a .item_text:after,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-item > a .item_text:before,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-item > a .item_text:after,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-ancestor > a .item_text:before,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-ancestor > a .item_text:after {
+  width: 100%;
+  left: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li.eltd-active-item > a .eltd-menu-arrow,
+.eltd-header-vertical .eltd-vertical-menu ul li.current_page_item > a .eltd-menu-arrow,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-item > a .eltd-menu-arrow,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-ancestor > a .eltd-menu-arrow {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul {
+  padding: 3px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub > a .item_outer {
+  position: relative;
+  display: block;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second {
+  display: none;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  z-index: 997;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a {
+  color: #000;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 24px;
+  padding: 13px 0;
+  font-style: normal;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text:before, .eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  left: auto;
+  width: 0;
+  height: 2px;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text:before {
+  background-color: #ffd94a;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text:after {
+  background-color: #ffd94a;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a:hover {
+  color: #000;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a:hover .item_text:before, .eltd-header-vertical .eltd-vertical-menu > ul > li > a:hover .item_text:after {
+  width: 100%;
+  left: 0;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li a {
+  color: #fff !important;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current_page_item > a,
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-item > a,
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-ancestor > a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu > ul > li.eltd-active-item > a,
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu > ul > li.current-menu-ancestor > a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li a {
+  color: #333 !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current_page_item > a,
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-item > a,
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-ancestor > a {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu > ul > li.eltd-active-item > a,
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu > ul > li.current-menu-ancestor > a {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+/* ==========================================================================
+   Header Vertical navigation style - end
+   ========================================================================== */
+.eltd-header-vertical .eltd-vertical-area-widget-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-vertical-area-widget-holder .widget {
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-area-widget-holder {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.eltd-header-vertical.admin-bar .eltd-vertical-menu-area {
+  top: 32px;
+  height: calc(100% - 32px);
+}
+
+.eltd-header-vertical .eltd-content,
+.eltd-header-vertical footer {
+  padding-left: 300px;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  padding: 50px;
+  background-color: transparent;
+  outline: none;
+  z-index: 101;
+  -webkit-backface-visibility: hidden;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area.eltd-with-scroll {
+  overflow: hidden;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-left {
+  text-align: left;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-center {
+  text-align: center;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-center .eltd-logo-wrapper img {
+  margin: 0 auto;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  margin: 0 auto;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.eltd-header-vertical .eltd-vertical-area-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  border-right: 1px solid #ddd;
+  height: 100%;
+  background-color: #fff;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease, background-color 0.5s ease;
+  -moz-transition: opacity 0.5s ease, background-color 0.5s ease;
+  transition: opacity 0.5s ease, background-color 0.5s ease;
+}
+
+.eltd-header-vertical.eltd-header-vertical-shadow-disable .eltd-vertical-area-background {
+  box-shadow: none;
+}
+
+.eltd-header-vertical.eltd-header-vertical-border-disable .eltd-vertical-area-background {
+  border: none;
+}
+
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 1;
+}
+
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 0;
+}
+
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 1;
+}
+
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 0;
+}
+
+/* ==========================================================================
+   Header Vertical style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header style - begin
+   ========================================================================== */
+.eltd-mobile-header {
+  position: relative;
+  display: none;
+  z-index: 110;
+  /* #General mobile header styles
+    ========================================================================== */
+  /* #End of general mobile header styles
+   ========================================================================== */
+  /* #Mobile logo styles
+    ========================================================================== */
+  /* #End of mobile logo styles
+    ========================================================================== */
+  /* #Mobile menu opener styles
+    ========================================================================== */
+  /* #End of mobile menu opener styles
+    ========================================================================== */
+  /* #Mobile menu navigation styles
+    ========================================================================== */
+  /* #End of mobile menu navigation styles
+	========================================================================== */
+}
+
+.eltd-mobile-header .eltd-mobile-header-inner {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.eltd-mobile-header .eltd-mobile-header-inner .eltd-mobile-header-holder {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.eltd-mobile-header .eltd-grid {
+  height: 100%;
+}
+
+.eltd-mobile-header .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-logo-wrapper a {
+  display: block;
+}
+
+.eltd-mobile-header .eltd-mobile-logo-wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener {
+  position: relative;
+  height: 100%;
+  float: left;
+  z-index: 2;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a {
+  display: table;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a > * {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-icon {
+  font-size: 20px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding-left: 5px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener.eltd-mobile-menu-opened a {
+  color: #ffd94a;
+}
+
+.eltd-mobile-header .eltd-mobile-nav {
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li a, .eltd-mobile-header .eltd-mobile-nav ul li h6 {
+  position: relative;
+  display: block;
+  padding: 9px 0;
+  margin: 0;
+  color: #777777;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li a:hover, .eltd-mobile-header .eltd-mobile-nav ul li h6:hover {
+  color: #ffd94a;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul {
+  display: none;
+  margin-left: 15px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-ancestor > a,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-item > a,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-ancestor > h6,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-item > h6 {
+  color: #ffd94a;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul li a, .eltd-mobile-header .eltd-mobile-nav ul ul li h6 {
+  font-size: 11px;
+  line-height: 24px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > a,
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > h6 {
+  padding-left: 4px;
+  font-size: 13px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > a,
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > h6 {
+  color: #ffd94a;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.open_sub > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > ul > li.open_sub > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  padding-right: 12px;
+  font-size: 15px;
+  line-height: 45px;
+  text-align: right;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow:hover {
+  cursor: pointer;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .eltd-sub-arrow {
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .fa-angle-down {
+  display: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav li.eltd-opened > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav > ul > li:last-child > a,
+.eltd-mobile-header .eltd-mobile-nav > .eltd-grid > ul > li:last-child > a {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky Mobile header style - begin
+   ========================================================================== */
+.eltd-sticky-up-mobile-header .eltd-animate-mobile-header .eltd-mobile-header-inner {
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  -moz-transition: -moz-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+}
+
+.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.eltd-sticky-up-mobile-header.admin-bar .mobile-header-appear .eltd-mobile-header-inner {
+  -webkit-transform: translateY(32px);
+  -moz-transform: translateY(32px);
+  transform: translateY(32px);
+}
+
+/* ==========================================================================
+   Sticky Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header style - begin
+   ========================================================================== */
+.eltd-sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -moz-transition: -moz-transform 0.6s ease;
+  transition: transform 0.6s ease;
+}
+
+.eltd-sticky-header .eltd-grid {
+  height: 100% !important;
+}
+
+.eltd-sticky-header.header-appear {
+  transform: translateY(0%);
+}
+
+.eltd-sticky-header .eltd-sticky-holder {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.eltd-sticky-header .eltd-sticky-holder .eltd-vertical-align-containers {
+  padding: 0 50px;
+}
+
+.eltd-sticky-header .eltd-sticky-holder .eltd-logo-wrapper a {
+  max-height: 80px;
+}
+
+.admin-bar .eltd-sticky-header.header-appear {
+  top: 32px;
+}
+
+.eltd-sticky-header .eltd-position-center-inner,
+.eltd-sticky-header .eltd-position-right-inner {
+  height: 100%;
+}
+
+.eltd-sticky-header .eltd-sticky-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-sticky-header .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Sticky header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header style - begin
+   ========================================================================== */
+.eltd-top-bar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 50px;
+  color: #777777;
+  font-size: 12px;
+  line-height: 1;
+  background-color: #fff;
+  z-index: 111;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+}
+
+.eltd-top-bar > .eltd-vertical-align-containers {
+  padding: 0 50px;
+}
+
+.eltd-top-bar .eltd-grid {
+  height: 100%;
+}
+
+.eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.eltd-top-bar-in-grid-padding .eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-top-bar .widget {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Top header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=header-map.css.map */

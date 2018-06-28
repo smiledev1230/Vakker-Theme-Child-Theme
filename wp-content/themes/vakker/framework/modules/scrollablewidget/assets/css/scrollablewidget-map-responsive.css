@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Socialsidebar responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+@media only screen and (max-width: 1280px) {
+  .eltd-scrollable-widget-holder {
+    right: -24px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-scrollable-widget-holder {
+    right: -36px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-scrollable-widget-holder {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Socialsidebar responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=scrollablewidget-map-responsive.css.map */
