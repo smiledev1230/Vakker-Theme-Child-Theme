@@ -1,0 +1,1 @@
+<?php do_action( 'vakker_eltd_get_footer_template' );
