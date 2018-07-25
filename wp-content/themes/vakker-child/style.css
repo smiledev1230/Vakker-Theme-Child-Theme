@@ -30,6 +30,14 @@ Template: vakker
 	font-weight: normal;
 }
 
+/* Common Style */
+.heading-title {
+	font-size: 36px;
+	font-family: 'MyriadPro Bold' !important;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /* Home Page Style */
 .home p {
 	font-size: 18px;
@@ -56,6 +64,9 @@ Template: vakker
 	position: relative;
 	font-size: 14px;
 }
+.widget .contact-info a:hover {
+	color: #b68a1c;
+}
 .widget .contact-info .fa-envelope-o {
     font-size: 20px;
     padding-right: 10px;
@@ -68,8 +79,8 @@ Template: vakker
 	max-height: 90px;
 }
 .eltd-social-icon-widget-holder:hover {
-	color: #ffd94a !important;
-    border-color: #ffd94a;
+	color: #b68a1c !important;
+    border-color: #b68a1c;
 }
 .eltd-main-menu>ul>li>a>span.item_outer .item_text:after, .eltd-main-menu>ul>li>a>span.item_outer .item_text:before {
 	background-color: #b68a1c !important;
@@ -78,8 +89,10 @@ Template: vakker
 /* Home Slider */
 .home-slider {
 	padding-left: 8vw;
-    width: 85vw;
     max-width: 1024px;
+}
+.home .home-slider {
+	width: 85vw;
 }
 .home-slider .slider-title {
 	font-family: 'MyriadPro Bold' !important;
@@ -92,10 +105,12 @@ Template: vakker
     font-size: 48px;
     color: #009579;
 }
-.home-slider p {
+p {
     color: #333;
     line-height: 30px;
     letter-spacing: 0px;
+    font-size: 18px;
+    font-family: 'MyriadPro Regular' !important;    
 }
 .home .rev_slider_wrapper.fullwidthbanner-container li div:nth-child(2) {
 	z-index: 10 !important;
@@ -126,7 +141,7 @@ Template: vakker
     margin: 0px;	
 }
 
-
+/* Services Row */
 .services-row {
 	padding: 0px 60px;
 }
@@ -136,6 +151,7 @@ Template: vakker
     font-size: 36px;
     text-align: center !important;
     text-transform: uppercase;
+    cursor: pointer;
 }
 #services_menu .content-title:hover {
 	color: #b68a1c;
@@ -224,8 +240,8 @@ Template: vakker
 	width: calc(100% - 30px);
 	padding-left: 15px;
 }
-.home-testimonials .eltd-testimonials-holder.eltd-testimonials-standard .eltd-testimonial-content .eltd-testimonial-mark {
-	color: #b68a1c;
+.eltd-testimonials-holder.eltd-testimonials-standard .eltd-testimonial-content .eltd-testimonial-mark {
+	color: #b68a1c !important;
 }
 
 .eltd-btn .eltd-btn-cover:hover {
@@ -249,6 +265,23 @@ Template: vakker
 }
 .schedule-row .eltd-subscribe input.wpcf7-form-control.wpcf7-submit {
 	background-color: #b68a1c;
+}
+
+/* About Page */
+.eltd-grid-row .row-content {
+    width: 88%;
+    margin: 0px auto;
+}
+.eltd-grid-row .row-content .vc_column-inner {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.gold-title {
+	font-family: 'MyriadPro Bold' !important;
+	text-transform: uppercase;
+}
+.tp-parallax-wrap>.tp-loop-wrap>.tp-mask-wrap {
+	margin-top: -3px;
 }
 
 /* Footer */
