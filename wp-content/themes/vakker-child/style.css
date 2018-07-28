@@ -36,6 +36,7 @@ Template: vakker
 	font-family: 'MyriadPro Bold' !important;
 	text-transform: uppercase;
 	text-align: center;
+	cursor: pointer;
 }
 
 /* Home Page Style */
@@ -64,9 +65,6 @@ Template: vakker
 	position: relative;
 	font-size: 14px;
 }
-.widget .contact-info a:hover {
-	color: #b68a1c;
-}
 .widget .contact-info .fa-envelope-o {
     font-size: 20px;
     padding-right: 10px;
@@ -79,8 +77,8 @@ Template: vakker
 	max-height: 90px;
 }
 .eltd-social-icon-widget-holder:hover {
-	color: #b68a1c !important;
-    border-color: #b68a1c;
+	color: #ffd94a !important;
+    border-color: #ffd94a;
 }
 .eltd-main-menu>ul>li>a>span.item_outer .item_text:after, .eltd-main-menu>ul>li>a>span.item_outer .item_text:before {
 	background-color: #b68a1c !important;
@@ -153,7 +151,7 @@ p {
     text-transform: uppercase;
     cursor: pointer;
 }
-#services_menu .content-title:hover {
+#services_menu .content-title:hover, #services_menu .eltd-iwt .eltd-iwt-title a:hover {
 	color: #b68a1c;
 }
 .service-icons {
